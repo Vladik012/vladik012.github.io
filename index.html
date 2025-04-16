@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vladik012</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -15,27 +18,33 @@
       padding: 2rem;
       margin: 0;
     }
+
     h1 {
       font-size: 3rem;
       color: #00ffee;
     }
+
     p {
       font-size: 1.2rem;
       margin: 0.5em 0;
       text-align: center;
       max-width: 600px;
     }
+
     a {
       color: #00ffee;
       text-decoration: none;
       font-weight: bold;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     .section {
       margin-top: 2rem;
     }
+
     .lang-switch {
       position: absolute;
       top: 15px;
@@ -51,19 +60,17 @@
       align-items: center;
       gap: 6px;
     }
+
     .lang-switch:hover {
       background-color: #00ffee;
       color: #0e0e0e;
     }
-    .lang-icon {
-      width: 20px;
-      height: 20px;
-    }
   </style>
 </head>
+
 <body>
+  <!-- 🔁 Переключатель языка -->
   <div class="lang-switch" onclick="toggleLanguage()">
-    <img class="lang-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Earth_symbol.svg/32px-Earth_symbol.svg.png" alt="Lang">
     <span id="lang-btn">EN</span>
   </div>
 
@@ -81,8 +88,8 @@
   <div class="section">
     <p><strong id="links-title">Ссылки на него!</strong></p>
     <p>
-      🔗 <strong><a id="steam-link" href="https://steamcommunity.com/id/vladik01212/" target="_blank">Steam</a><br></strong>
-      💬 <strong>Discord:</strong> Vladik012
+      <strong><a id="steam-link" href="https://steamcommunity.com/id/vladik01212/" target="_blank">Steam</a></strong><br>
+      <strong>Discord:</strong> Vladik012
     </p>
   </div>
 
